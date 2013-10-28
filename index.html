@@ -1,0 +1,636 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; user-scale=0;"/>
+<meta content="View maps and find local businesses on the web." name="description"/>
+<title>jQuery Mobile Web App</title>
+<link href="//maps.gstatic.com/favicon3.ico" rel="shortcut icon"/>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+<div id="page" data-role="page" data-theme="e">
+	<div data-role="header" data-theme="a">
+		<h1>Mobile Greenwich</h1>
+  </div>
+	<!--Collapsibli menu -->
+    <h1><img src="images/green.jpg" alt="" width="260" class="floatleft"></h1>
+  <div data-role="content">	
+                        			
+                   <!--list expanded -->
+              			<ul data-role="listview" data-theme="a" data-inset="true">
+              
+              				<li><a href="#page2">Study at Greenwich</a></li>
+            				
+                			<li><a href="#page5">Extra links</a></li>
+                			<li><a href="#page20">Libraries</a></li>
+                			<li><a href="#page7">About Greenwich</a></li>
+                            <li><a href="#page24">News update</a></li>
+                </ul>
+              	          	 	
+      <div data-role="fieldcontain">
+            <input name="" id="searchinput1" placeholder="" value="" type="search">
+        </div>
+          <!--call and location button --> 
+       
+<div data-role="content">
+        
+        <div data-role="navbar" data-iconpos="left">
+          <ul>
+                <li>
+                  <a href="tel:02083318000" rel="external" data-theme="a"><img src="images/phone_1_icon&16.png" width="14" height="14"> &nbsp;Contact us
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#page8" data-transition="slide" data-theme="a"><img src="images/info_icon&16.png" width="14" height="14">&nbsp;&nbsp;
+                        		
+                       Locate us
+                  </a>
+                </li>
+          </ul>
+        </div>
+</div>
+<p>&nbsp;</p>  
+  </div>
+  
+	<div data-role="footer" data-theme="a" >
+		<h4>
+<a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a>
+</h4>
+	</div>
+</div>
+
+<!-- study at greenwich page -->
+<div id="page2" data-role="page" data-theme="a">
+	<div data-role="header" data-theme="a">
+
+<!-- inserts button in header collum -->
+		<a href="#page" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+        <h1>Study at Greenwich </h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"> <img src="images/home_icon&16.png" width="16" height="16"></a>
+        
+         </div>
+         	
+	<div data-role="content" data-theme="e" data-inset="true">
+        <img src="images/great-feature2.jpg" class="floatleft" align="absmiddle" width="260" alt="">
+            <ul data-role="listview" data-theme="a" data-inset="true">
+              
+              				<li><a href="#page10">Programme</a></li>
+            				<li><a href="http://www2.gre.ac.uk/study/accommodation">Accomodation</a></li>
+							<li><a href="#page12">Open Days</a></li>
+                			<li><a href="#page25">Fees & Finance</a></li>
+                			<li><a href="#page26">How to apply</a></li>
+                			<li><a href="http://www2.gre.ac.uk/study/ask">Ask Greenwich</a></li>
+			</ul>
+  		</div>
+                
+	<div data-role="footer" data-theme="a">
+		<!--Social media links-->
+        <h4><a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a></h4>
+	</div>
+</div>
+
+
+ <!-- Extra links button -->
+<div data-role="page" id="page5">
+	<div data-role="header" data-theme="a">
+    <a href="#page" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+    
+		<h1>Extra links</h1>
+        <a href="#page" data-role="button" data-theme="a" data-mini="true"> <img src="images/home_icon&16.png" width="16" height="16"></a>
+        <!-- home button -->
+         
+	</div>
+	<div data-role="content" data-theme="e" data-inset="true">	
+		<ul data-role="listview" data-divider-theme="b" data-inset="true">
+            <ul data-role="listview" data-theme="a">
+              
+              				<li><a href="https://portal.gre.ac.uk/cp/home/displaylogin"><img src="images/portal.jpg" width="96" alt="">Student Portal</a></li>
+            				<li><a href="http://www.cms.gre.ac.uk/login/student.asp"><img src="images/intranet.jpg" width="96" alt="">Student Intranet</a></li>
+							<li><a href="http://www.cms.gre.ac.uk/login/staff.asp"><img src="images/intranet.jpg" width="96" alt="">Staff intranet</a></li>
+                			<li><a href="https://www.facebook.com/www.gre.ac.uk"><img src="images/facebook.jpg" width="96" alt="">Facebook Page</a></li>
+                            <li><a href="http://twitter.com/UniGreenwich"><img src="images/twitter.jpg" width="96" alt="">Twitter Page</a></li>
+                            <li><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch"><img src="images/youtube.jpg" width="96" alt="">Youtube Page</a></li>
+                			
+			</ul>
+      </ul>			
+	</div>
+	<div data-role="footer" data-theme="a">
+		<!-- Extra links button -->
+        <h4><a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a></h4>
+	</div>
+</div>
+
+<!-- open days page -->
+<div data-role="page" id="page12">
+	<div data-role="header" data-theme="a">
+    <a href="#page2" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+		<h1>Open Days</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"> <img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="e">	
+		Each Open Day follows a similar format and provides a variety of activities, you can:
+<p>
+<li>Speak to lecturers in your subject area of interest</li>
+
+<li>Take a tour of the campus and the halls of residence</li>
+
+<li>Look around the departments and see the specialist labs and equipment</li>
+
+<li>Chat to current students and find out about student life</li>
+
+<li>Meet staff from our wide range of student support services</li>
+
+<li>Listen to presentations about the different subjects available</li>
+</p>
+<p>&nbsp;
+
+</p>
+<ul data-role="listview" data-divider-theme="b" data-inset="true">
+            <ul data-role="listview" data-theme="a" data-inset="true">
+              
+              				<li><a href="http://www2.gre.ac.uk/__data/assets/pdf_file/0009/763218/Avery-Hill-Campus-Open-Day-Programme-Saturday-23-February-2013.pdf">Avery Hill Campus Open Days</a></li>
+            				<li><a href="http://www2.gre.ac.uk/__data/assets/pdf_file/0003/763221/Greenwich-Campus-Open-Day-Programme-13-April-2013.pdf">Greenwich Campus Open Days</a></li>
+							<li><a href="http://www2.gre.ac.uk/__data/assets/pdf_file/0020/763220/Medway-Campus-Open-Day-Programme-Saturday-13-April-2013.pdf">Medway Campus Open Days</a></li>
+                			
+			</ul>
+  </ul>
+		
+	</div>
+	<div data-role="footer" data-theme="a">
+		<!-- Extra links button -->
+        <h4>
+<a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a>
+</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page7">
+	<div data-role="header" data-theme="a">
+   <a href="#page" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+		<h1>About Greenwich</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"> <img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="e">	
+		<iframe id="ytplayer" src="http://www.youtube.com/embed/HztWk8yaaQE?modestbranding=&amp;showinfo=0" frameborder="0" width="240" height="168" type="text/html"></iframe>
+
+<p>The university works with schools and colleges to increase the number of students from under-represented groups in society who enter into higher education. We deliver information sessions to teachers, careers advisers and students. For an introduction to what’s on offer at the university	</p>
+	</div>
+	
+    <div data-role="footer" data-theme="a">
+		<!-- Extra links button -->
+        <h4>
+<a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a>
+</h4>
+	</div>
+</div>
+
+<!-- locate us page -->
+    
+    <div data-role="page" id="page8">
+	<div data-role="header" data-theme="a">
+    <a href="#page" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+    
+		<h1>Locate us</h1>        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"> <img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>	
+        <!-- end header -->
+	<div data-role="content" data-theme="e">
+	  <p>The <strong>University of Greenwich</strong> is a British university with campuses in south-east London and north Kent. These include the Greenwich Campus, located in the grounds of the Old Royal Naval College in the Royal Borough of Greenwich, London,England. It is the largest university in London by student numbers and the greenest in the UK as assessed by the People &amp; Planet Green League Table</p>
+	  <ul data-role="listview" data-inset="true" data-theme="a">
+		  <li><a href="https://maps.google.co.uk/maps?q=university+of+greenwich&cid=0,0,11991502291776459204&ei=tfs4UbTZL4TVPLrCgLAG&ved=0CC4Q_BI" rel="external">Maritime campus</a></li>
+		  <li><a href="https://maps.google.co.uk/maps?q=greenwich+university+avery+hill+campus&cid=0,0,11629550878262268201&ei=Nf85UdK-NMqK7Aau74GgAg&ved=0CBsQ_BI" rel="external">Avery campus</a></li>
+		  <li><a href="https://maps.google.co.uk/maps?ie=UTF8&cid=14195051901731232179&q=University+of+Greenwich+-+Medway+Campus&iwloc=A&gl=GB&hl=en_uk" rel="external">Medway campus</a></li>
+			
+		</ul>
+       </div>
+    	
+	
+	
+    <div data-role="footer" data-theme="a">
+		<!-- Extra links button -->
+        <h4>
+<a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a>
+</h4>
+	</div>   
+</div>
+
+<!-- Programme page -->
+<div data-role="page" id="page10">
+	<div data-role="header" data-theme="a">
+    <a href="#page" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+    
+		<h1>Programme</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"> <img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="e">
+    <p>The university&#39;s programmes are grouped in broad subject categories, which are arranged alphabetically and can be found by clicking on the links below or via the search function.</p>
+    <p>&nbsp;  </p>
+	
+		 <ul data-role="listview" data-divider-theme="b">
+            <ul data-role="listview" data-theme="a" data-inset="true">
+              
+              				<li><a href="http://www2.gre.ac.uk/study/courses/ug">Undergraduate programmes</a></li>
+            				<li><a href="http://www2.gre.ac.uk/study/courses/pg">Postgraduate programmes</a></li>
+							<li><a href="http://www2.gre.ac.uk/study/courses/fd">Foundation degrees</a></li>
+                			<li><a href="http://www.gre.ac.uk/courses/short">Short courses</a></li>
+                			<li><a href="http://www2.gre.ac.uk/study/courses/aps">Applied Professional Studies</a></li>
+                			
+			</ul>
+      </ul>		
+	</div>
+	<div data-role="footer" data-theme="a">
+		<!-- social buttons -->
+        <h4><a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a></h4>
+	</div>
+</div>
+
+
+	
+<div data-role="page" id="page20">
+	<div data-role="header" data-theme="a">
+    <a href="#page" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+    
+		<h1>Libraries</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"><img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="e">
+    
+   <p> Each library and computer laboratory is open for 100 hours per week during term-time, including late opening until midnight seven days a week. There are photocopying facilities and self-service machines for users to beat queues by processing their own loans.</p>
+   	
+		<ul data-inset="true" data-role="listview" data-theme="a">
+		  <li><a href="#page21" rel="external">Maritime campus</a></li>
+		  <li><a href="#page22" rel="external">Avery campus</a></li>
+		  <li><a href="#page23" rel="external">Medway campus</a></li>
+			
+		</ul>
+	</div>
+	
+    <div data-role="footer" data-theme="a">
+		<!-- social buttons -->
+        <h4><a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a></h4>
+	</div>
+</div>
+    
+<!-- Avery hill lib -->
+<div data-role="page" id="page21">
+	<div data-role="header" data-theme="a">
+    <a href="#page20" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+		<h1>Avery hill lib</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"><img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="e">	
+		<table width="100%" height="223" border="1" class="infobox">
+  <tbody>
+    <tr class="headerbox" >
+      <td width="34%"><strong>Day/s</strong></td>
+
+      <td width="33%"><strong>Library open</strong></td>
+
+      <td width="33%"><strong>Helpdesks open</strong></td>
+    </tr><!-- <TR class=row2>
+        <TD colSpan=3>Monday 17th to Friday 21st December</TD>
+      </TR> -->
+
+    <tr>
+      <td height="35">Monday to Thursday</td>
+
+      <td>8.30am &ndash; Midnight</td>
+
+      <td>9am &ndash; 8.50pm</td>
+    </tr>
+
+    <tr>
+      <td height="45">Friday</td>
+
+      <td>8.30am &ndash; Midnight</td>
+
+      <td>9am &ndash; 6.50pm</td>
+    </tr>
+
+    <tr>
+      <td height="28">Saturday &amp; Sunday</td>
+
+      <td>11am &ndash; Midnight</td>
+
+      <td>11am &ndash; 4.50pm</td>
+    </tr>
+
+    <tr class="row2">
+      <td height="30" colspan="3">Easter weekend &ndash; 29th March to 1st April (inclusive):</td>
+    </tr>
+
+    <tr>
+      <td height="44">All days</td>
+
+      <td>Closed</td>
+
+      <td>Closed</td>
+    </tr>
+  </tbody>
+</table>
+	</div>
+	<!-- social buttons -->
+    <div data-role="footer" data-theme="a">
+		<h4><a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a></h4>
+	</div>
+</div>  
+
+<!-- Greenwich lib -->
+<div data-role="page" id="page22">
+	<div data-role="header" data-theme="a">
+    <a href="#page20" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+		<h1>Greenwich lib</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"><img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="e">	
+		<table width="100%" height="227" border="2" class="infobox">
+  <tbody>
+    <tr class="headerbox">
+      <td width="34%"><strong>Day/s</strong></td>
+
+      <td width="33%"><strong>Library open</strong></td>
+
+      <td width="33%"><strong>Helpdesks open</strong></td>
+    </tr><!-- <TR class=row2>
+        <TD colSpan=3>Monday 17th to Friday 21st December</TD>
+      </TR> -->
+
+    <tr>
+      <td>Monday to Thursday</td>
+
+      <td>8.30am &ndash; Midnight</td>
+
+      <td>9am &ndash; 8.50pm</td>
+    </tr>
+
+    <tr>
+      <td>Friday</td>
+
+      <td>8.30am &ndash; Midnight</td>
+
+      <td>9am &ndash; 6.50pm</td>
+    </tr>
+
+    <tr>
+      <td>Saturday &amp; Sunday</td>
+
+      <td>11am &ndash; Midnight</td>
+
+      <td>11am &ndash; 4.50pm</td>
+    </tr>
+
+    <tr class="row2">
+      <td colspan="3">Easter weekend &ndash; 29th March to 1st April (inclusive):</td>
+    </tr>
+
+    <tr>
+      <td>All days</td>
+
+      <td>Closed</td>
+
+      <td>Closed</td>
+    </tr>
+  </tbody>
+</table>
+	</div>
+	
+    <div data-role="footer" data-theme="a">
+		<!-- social buttons -->
+        <h4>
+<a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a>
+</h4>
+	</div>
+</div> 
+
+<!-- Medway lib -->
+<div data-role="page" id="page23">
+	<div data-role="header" data-theme="a">
+    <a href="#page20" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+		<h1>Medway lib</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"><img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="e">	
+	<table width="100%" height="249" border="2" class="infobox">
+  <tbody>
+    <tr>
+      <td width="34%"><strong>Day/s</strong></td>
+
+      <td width="41%"><strong>Library open</strong></td>
+      </tr><!-- <TR class=row2>
+        <TD colSpan=3>Monday 17th to Friday 21st December</TD>
+      </TR> -->
+
+    <tr>
+      <td>Monday to Thursday</td>
+
+      <td>8.30am &ndash; Midnight</td>
+      </tr>
+
+    <tr>
+      <td>Friday</td>
+
+      <td>8.30am &ndash; Midnight</td>
+      </tr>
+
+    <tr>
+      <td>Saturday &amp; Sunday</td>
+
+      <td>11am &ndash; Midnight</td>
+      </tr>
+
+    <tr class="row2">
+      <td colspan="2">Easter weekend &ndash; 29th March to 1st April (inclusive):</td>
+    </tr>
+
+    <tr>
+      <td height="56">All days</td>
+
+      <td>Closed</td>
+      </tr>
+  </tbody>
+</table>	
+	</div>
+	<!-- social buttons -->
+    <div data-role="footer" data-theme="a">
+		<h4>
+<a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a>
+</h4>
+	</div>
+</div>   
+    
+    <!-- RSS page -->
+    <div data-role="page" id="page24">
+	<div data-role="header" data-theme="a">
+    <a href="#page" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+    
+		<h1>Greenwich News</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"> <img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="e">	
+		<script language="JavaScript" src="http://www.feedroll.com/rssviewer/feed2js.php?src=http%3A%2F%2Fwww2.gre.ac.uk%2Fabout%2Fnews%2Fnews.rss&chan=y&desc=1&utf=y"  charset="UTF-8" type="text/javascript"></script>	
+	</div>
+	<div data-role="footer" data-theme="a">
+		<!-- social buttons -->
+        <h4>
+<a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a>
+</h4>
+	</div>
+</div>
+
+<!-- Tutiions Fees -->
+<div data-role="page" id="page25">
+	<div data-role="header" data-theme="a">
+    <a href="#page2" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+		<h1>Tuition Fees</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"><img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+	<div data-role="content" data-theme="b">	
+		           
+            <ul data-inset="true" data-role="listview" data-theme="a">
+            <li data-role="list-divider" role="heading">
+                Undergraduate Fees
+            </li>
+        <li><a href="http://www2.gre.ac.uk/study/finance/undergraduate/fees">2013-2014</a></li>
+        <li><a href="http://www2.gre.ac.uk/study/finance/undergraduate/fees">2012-2013</a></li>
+        
+    </ul>
+    
+    <ul data-inset="true" data-role="listview" data-theme="a">
+    <li data-role="list-divider" role="heading">
+                Postgraduate Fees
+            </li>
+      <li><a href="http://www2.gre.ac.uk/study/finance/postgraduate/fees">2012-2013</a></li>
+        
+    </ul>
+    
+    <ul data-role="listview" data-inset="true" data-theme="a">
+    <li data-role="list-divider" role="heading">
+                International Fees
+            </li>
+        <li><a href="http://www2.gre.ac.uk/students/international/international-students/finance/fees">2013-2014</a></li>
+        
+        
+    </ul>
+    
+    <ul data-role="listview" data-inset="true" data-theme="a">
+    <li data-role="list-divider" role="heading">
+                Foundation Fees
+            </li>
+        <li><a href="http://www2.gre.ac.uk/study/finance/foundation">2013-2014</a></li>
+       
+        
+    </ul>
+		  
+	</div>
+	
+    
+    <div data-role="footer" data-theme="b">
+		<!-- social buttons -->
+        <h4><a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a></h4>
+	</div>
+</div>
+<!-- Undergraduate Fees -->
+<div data-role="page" id="page26">
+	<div data-role="header" data-theme="a">
+    <a href="#page2" data-icon="arrow-l" data-role="button" data-theme="a" data-mini="true">Back</a>
+		<h1>How to apply</h1>
+        
+        <!-- home button -->
+         <a href="#page" data-role="button" data-theme="a" data-mini="true"><img src="images/home_icon&16.png" width="16" height="16"></a>
+	</div>
+<!-- navbar content -->
+ <div data-role="content" data-theme="e">
+    
+       <h2>Making your application</h2>
+       <p>The first stage of applying for APL credit is to make contact with your APL co-ordinator.</p>
+
+<p>Each university School has a member of staff who acts as the first point of contact for all prospective applicants making an APL claim. Your APL co-ordinator will usually be the programme leader for the programme you wish to study, but there may be an overall APL co-ordinator for the School.</p>
+
+<p>The APL co-ordinator can provide advice on:</p>
+
+<ul>
+  <li>The nature of APL</li>
+
+  <li>The credit requirements of the programme, including specific learning outcomes for courses</li>
+
+  <li>University procedure, including limits on the amount of credit that can be claimed and the process of making the APL application</li>
+
+  <li>How you should structure your claim</li>
+
+  <li>The content of the claim, in terms of reflecting upon and demonstrating how you meet programme/course learning outcomes</li>
+
+  <li>The methods that will be used to assess your certificated or experiential learning and the evidence to be submitted.</li>
+</ul>
+
+<p>It is your responsibility to prepare and submit an application. You will need to:</p>
+
+<ul>
+  <li>Identify your existing skills and knowledge</li>
+
+  <li>Match your prior learning against the requirements of the courses or programme</li>
+
+  <li>Collect and collate the evidence to support the application</li>
+
+  <li>Formally submit an application to the APL co-ordinator within required deadlines</li>
+
+  <li>Inform the APL co-ordinator of any change of contact details.</li>
+</ul>
+
+<p>Your APL co-ordinator will then progress your claim.</p>
+
+  <h3>How applications are considered</h3>
+
+<p>In order to progress an APL application, the university will&nbsp;consider evidence supplied by you about your prior learning. The evidence supplied must demonstrate:</p>
+
+<ul>
+  <li>Relevance/equivalence – the prior learning should cover similar knowledge and skills to the learning outcomes of the programme to be studied. The mapping of prior learning against learning outcomes is a matter of academic judgement</li>
+
+  <li>Sufficiency - the supporting evidence will need to clearly outline the nature of your achievements and demonstrate and that the achievement is your own</li>
+
+  <li>Currency – both formal certificated learning and experiential learning will normally be considered current when they have occurred up to 5 years prior to the start date of the University of Greenwich programme.</li>
+</ul>
+
+<p>APL credit can only be awarded for whole courses, not for part of a course.</p>
+
+
+  </div>
+    <div data-role="footer" data-theme="a">
+		<!-- social buttons -->
+        <h4><a href="https://www.facebook.com/www.gre.ac.uk" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/facebook.png"></a><a href="http://twitter.com/UniGreenwich" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/twitter.png"></a><a href="http://www.youtube.com/user/UniversityGreenwich?feature=watch" target="_blank" align="left"><img src="http://www.niftybuttons.com/webicons2/youtube.png"></a><a href="http://www2.gre.ac.uk/about/news/news.rss" target="_blank" align="left" ><img src="http://www.niftybuttons.com/webicons2/rssfeed.png"></a></h4>
+	</div>
+</div>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
